@@ -1,3 +1,61 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+$colores: (
+    rectangulo1: #2C5271,
+    rectangulo2: #509A9D,
+    rectangulo3: #70C197,
+    rectangulo4:#93DF9A,
+    rectangulo5: #D5F2D3,
+    circulo1:#316179,
+    circulo2:#57A399,
+    circulo3:#86D398,
+    circulo4:#62AE98,
+    circulo5:#89CCA8,
+);
+
+$tamaño: (
+    padingBody: 150px,
+);
+
+$tamañoRectangulo: (
+    whiterectangulos: 100px,
+    altura: 300px,
+    borde: 40px,
+    espacio: 30px,
+    pading: 20px,
+);
+
+$tamañoCirculo: (
+    whitcirculo: 100px,
+    alturacirculo: 100px,
+    bordecirculo: 80px,
+    espaciocirculo: 30px,
+    padingcirculo: 20px
+)
+
+
+
+
+// .facebook{
+//     background-color: map-get($social , $facebook);
+// }
+// .twitter{
+//     background-color: map-get($social , $twitter);
+// }
+// .instagram{
+//     background-color: map-get($social , $instagram);
+// }
+// .youtube{
+//     background-color: map-get($social , $youtube);
+// }
+// .linkeding{
+//     background-color: map-get($social , $linkeding);
+// }
+
+// @each $red,$color in $social {
+//     .#{$red} {
+//         background-color: $color;
+//     }
+// }

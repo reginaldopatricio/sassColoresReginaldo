@@ -1,3 +1,85 @@
 /* ********* */
 /* @BANNER */
 /* ********* */
+
+body{
+    padding-top: map-get($tamaño, padingBody);
+}
+.rectangulos{
+    display: flex;
+    justify-content: center;
+    gap: map-get($tamañoRectangulo, espacio);
+    
+}
+.circulos{
+    display: flex;
+    justify-content: center;
+    gap: map-get($tamañoRectangulo, espacio);
+    padding-top: map-get($tamañoRectangulo, pading);
+}
+
+.rectangulo1{
+    background-color: map-get($colores, rectangulo1 );
+    width: map-get($tamañoRectangulo, whiterectangulos );
+    height: map-get($tamañoRectangulo, altura);
+    border-radius: map-get($tamañoRectangulo, borde);
+}
+
+.rectangulo2{
+    background-color: map-get($colores, rectangulo2);
+    width: map-get($tamañoRectangulo, whiterectangulos );
+    height: map-get($tamañoRectangulo, altura);
+    border-radius: map-get($tamañoRectangulo, borde);
+}
+
+.rectangulo3{
+    background-color: map-get($colores, rectangulo3);
+    width: map-get($tamañoRectangulo, whiterectangulos );
+    height: map-get($tamañoRectangulo, altura);
+    border-radius: map-get($tamañoRectangulo, borde);
+}
+.rectangulo4{
+    background-color: map-get($colores, rectangulo4);
+    width: map-get($tamañoRectangulo, whiterectangulos );
+    height: map-get($tamañoRectangulo, altura);
+    border-radius: map-get($tamañoRectangulo, borde);
+}
+
+.rectangulo5{
+    background-color: map-get($colores, rectangulo5);
+    width: map-get($tamañoRectangulo, whiterectangulos );
+    height: map-get($tamañoRectangulo, altura);
+    border-radius: map-get($tamañoRectangulo, borde);
+}
+
+.circulo1{
+    background-color: map-get($colores, circulo1);
+    width: map-get($tamañoCirculo, whitcirculo);
+    height: map-get($tamañoCirculo, alturacirculo );
+    border-radius: map-get($tamañoCirculo, bordecirculo);
+}
+
+.circulo2{
+    background-color: map-get($colores, circulo2);
+    width: map-get($tamañoCirculo, whitcirculo);
+    height: map-get($tamañoCirculo, alturacirculo );
+    border-radius: map-get($tamañoCirculo, bordecirculo);
+}
+.circulo3{
+    background-color: map-get($colores, circulo3);
+    width: map-get($tamañoCirculo, whitcirculo);
+    height: map-get($tamañoCirculo, alturacirculo );
+    border-radius: map-get($tamañoCirculo, bordecirculo);
+}
+.circulo4{
+    background-color: map-get($colores, circulo4);
+    width: map-get($tamañoCirculo, whitcirculo);
+    height: map-get($tamañoCirculo, alturacirculo );
+    border-radius: map-get($tamañoCirculo, bordecirculo);
+}
+.circulo5{
+    background-color: map-get($colores, circulo5);
+    width: map-get($tamañoCirculo, whitcirculo);
+    height: map-get($tamañoCirculo, alturacirculo );
+    border-radius: map-get($tamañoCirculo, bordecirculo);
+}
